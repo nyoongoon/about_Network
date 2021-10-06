@@ -39,11 +39,11 @@ ex)
 : include시 두가지 cors룰 추가됨. 1. Access-Control-Allow-Origin에는 \*사용할 수 없으며 명시적인 URL이어야 함. 2. 응답헤더에는 반드시 Access-Control-Allow-Credentials: true가 존재해야 함.<br/>
 
 ### CORS를 해결하기 
-- Access-Control-Allow-Origin 세팅하기
+- Access-Control-Allow-Origin 세팅하기<br/>
 : 와일드 카드인 \*을 사용하여 헤더에 세팅하게 되면 모든 요청을 받을 수 있지만 보안 이슈가 생길 수 있으니 특정 출처를 명시하는 게 좋다. <br/>
 : Nginx나 Apache같은 서버 엔진의 설정에서 추가할 수도 있지만, 소스 코드 내에서 응답 미들웨어 등을 사용하여 세팅하면 좋다. (백엔드 프레임 워크의 미들웨어 라이브러리)<br/>
 
-- Webpack Dev Server로 리버스 프록싱 하기
+- Webpack Dev Server로 리버스 프록싱 하기<br/>
 : 웹팩과 webpack-dev-server 라이브러리가 제공하는 프록시 기능을 사용하면 CORS정책 우회 가능
 
 출처 : https://evan-moon.github.io/2020/05/21/about-cors/
