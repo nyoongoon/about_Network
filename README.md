@@ -2,7 +2,7 @@
 네트워크를 공부하며 알게된 것을 기록하는 저장소입니다.
 
 # CORS(Cross-Origin Resource Sharing 교차 출처 리소스 공유)
-: Origin(출처)란? -> Protocol, host, port를 모두 합친 것. 
+- Origin(출처)란? -> Protocol, host, port를 모두 합친 것. 
 : 포트번호는 생략이 가능. (http, https의 포트번호가 정해져 있기 때문)
 - SOP(Same-Origin-Policy)
 : 같은 출처에서만 리소스를 공유할 수 있다는 규칙. -> CORS정책을 지킨 리소스 요청은 허용.
